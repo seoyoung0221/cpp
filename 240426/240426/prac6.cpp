@@ -10,8 +10,8 @@ void print_vector(vector<int>& vec);
 int main() 
 {
 	vector<int> v(5);
-	int max = 0;
-	int n; 
+	int max = 0; //INT32_MIN : int형의 최솟값
+	int n;
 	int value;
 
 	//벡터 입력받기
