@@ -6,6 +6,24 @@ using namespace std;
 
 int main()
 {
+	/*글자, 숫자 판단
+	string name = "jo2hn*";
+
+	for (int i; i < name.length(); i++)
+	{
+		isdigit(name[i]);
+		if(isdigit(name[i]) != 0)
+		{
+			//숫자 O
+		}else if(isdigit(name[i] == 0)
+		{
+			//숫자 x
+		}
+
+		isalpha(name[i]);
+		//alpha는 반대로 작동 , 특수문자도 0으로 출력
+	}
+	*/
 	int x, y;
 	int loop_cnt = 1;
 	int error = 0;
@@ -38,7 +56,7 @@ int main()
 	{
 		for (int j = 0; j < y; j++)
 		{
-			cout << arr[i][j] << " ";
+			cout << arr[i][j] << "\t";
 		}
 		cout << "\n";
 	}
