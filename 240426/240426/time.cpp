@@ -26,6 +26,12 @@ int main() {
 
 	start2 = clock();
 
+	for (int i = 0; i < 1000000000; i++)
+	{
+
+	}
+
+
 	end2 = clock();
 	result2 = double(end2 - start2);
 	cout << "수행 시간 : " << result2 << "millisecond" << "\n";
