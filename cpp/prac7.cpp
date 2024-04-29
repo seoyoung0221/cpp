@@ -21,7 +21,7 @@ int main()
 	}
 	end1 = clock();
 	result1 = double(end1 - start1);
-	cout << "첫번째 출력 시간은 " << result1 << "ms 입니다. \n";
+	cout << "첫번째 출력 시간은 " << result1 << "ms 입니다. \n\n";
 
 
 	cout << "두번째 출력 진행\n";
