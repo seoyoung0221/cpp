@@ -12,23 +12,24 @@ int main()
 	vector<int> test_vec1(1), test_vec2(2);
 	clock_t start1, end1, start2, end2;
 	double result1, result2;
+
+	cout << "첫번째 출력 진행\n";
 	start1 = clock();
-	cout << "첫번째 출력 진행";
 	for (int i = 0; i < 100000000; i++)
 	{
-		test_vec1.push_back(0);
+		test_vec1.push_back(i);
 	}
 	end1 = clock();
 	result1 = double(end1 - start1);
 	cout << "첫번째 출력 시간은 " << result1 << "ms 입니다. \n";
 
 
+	cout << "두번째 출력 진행\n";
 	start2 = clock();
-	cout << "두번째 출력 진행";
+	test_vec2.reserve(100000000);
 	for (int i = 0; i < 100000000; i++)
 	{
-		test_vec2.reserve(100000000);
-		test_vec2.push_back(0);
+		test_vec2.push_back(i);
 	}
 	end2 = clock();
 	result2 = double(end2 - start2);
