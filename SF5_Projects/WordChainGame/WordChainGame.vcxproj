@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{db1a4ae4-d06a-40e9-a5ff-7a99a5e58aeb}</ProjectGuid>
-    <RootNamespace>BR31</RootNamespace>
+    <ProjectGuid>{8d6ed79c-1b77-4bab-892f-17a6bf8a6015}</ProjectGuid>
+    <RootNamespace>WordChainGame</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
