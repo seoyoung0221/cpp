@@ -10,6 +10,7 @@ using namespace std;
 
 int inputNumber(int character);
 int callNumber(int gameNum, int num);
+bool checkError(string input);
 
 int main() {
 	static int user = 0;
@@ -56,11 +57,25 @@ int inputNumber(int character) {
 
 	srand(time(NULL));
 	int num; //외치는 숫자의 개수
+	string input; //사용자의 입력
+	bool error;
 
 	if (character == 0) //사용자 차례
 	{
-		cout << "개수를 입력하세요: ";
-		cin >> num;
+		while (true) {
+			cout << "개수를 입력하세요: ";
+			cin >> input;
+			error = checkError(input);
+			if (error == false)
+			{
+				break;
+			}
+			else if (error == true)
+			{
+				cout << "1 ~ 3 사이의 숫자를 입력하세요.\n";
+			}
+		}
+		num = stoi(input);
 	}
 	else if (character == 1) //컴퓨터 차례
 	{
@@ -90,4 +105,31 @@ int callNumber(int gameNum, int num) {
 	cout << "\n";
 
 	return gameNum;
+}
+
+// 사용자가 숫자 제대로 입력했는지 확인하는 함수
+bool checkError(string str) 
+{
+	// 숫자인지 확인
+	for (char& c : str)
+	{
+		// 0 : 숫자x
+		if (isdigit(c) == 0)
+		{
+			return true;
+		}
+	}
+
+	// 1~3사이의 숫자인지 확인
+	switch (stoi(str))
+	{
+	case 1: 
+		return false;
+	case 2:
+		return false;
+	case 3: 
+		return false;
+	default:
+		return true;
+	}
 }
