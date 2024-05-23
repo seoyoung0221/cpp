@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WordChainGame", "WordChainG
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GuessRandomNumber", "GuessRandomNumber\GuessRandomNumber.vcxproj", "{F963E1F2-9D56-49FE-B9B3-4C54D1615380}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaddeningDust", "MaddeningDust\MaddeningDust.vcxproj", "{E3B92D0C-F0CB-488F-8BD4-3C2B7D393291}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{F963E1F2-9D56-49FE-B9B3-4C54D1615380}.Release|x64.Build.0 = Release|x64
 		{F963E1F2-9D56-49FE-B9B3-4C54D1615380}.Release|x86.ActiveCfg = Release|Win32
 		{F963E1F2-9D56-49FE-B9B3-4C54D1615380}.Release|x86.Build.0 = Release|Win32
+		{E3B92D0C-F0CB-488F-8BD4-3C2B7D393291}.Debug|x64.ActiveCfg = Debug|x64
+		{E3B92D0C-F0CB-488F-8BD4-3C2B7D393291}.Debug|x64.Build.0 = Debug|x64
+		{E3B92D0C-F0CB-488F-8BD4-3C2B7D393291}.Debug|x86.ActiveCfg = Debug|Win32
+		{E3B92D0C-F0CB-488F-8BD4-3C2B7D393291}.Debug|x86.Build.0 = Debug|Win32
+		{E3B92D0C-F0CB-488F-8BD4-3C2B7D393291}.Release|x64.ActiveCfg = Release|x64
+		{E3B92D0C-F0CB-488F-8BD4-3C2B7D393291}.Release|x64.Build.0 = Release|x64
+		{E3B92D0C-F0CB-488F-8BD4-3C2B7D393291}.Release|x86.ActiveCfg = Release|Win32
+		{E3B92D0C-F0CB-488F-8BD4-3C2B7D393291}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
