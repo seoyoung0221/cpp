@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GuessRandomNumber", "GuessR
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaddeningDust", "MaddeningDust\MaddeningDust.vcxproj", "{E3B92D0C-F0CB-488F-8BD4-3C2B7D393291}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BaseballGame", "BaseballGame\BaseballGame.vcxproj", "{A6DFDAB8-1742-4680-B5E5-360E8AA8DCA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{E3B92D0C-F0CB-488F-8BD4-3C2B7D393291}.Release|x64.Build.0 = Release|x64
 		{E3B92D0C-F0CB-488F-8BD4-3C2B7D393291}.Release|x86.ActiveCfg = Release|Win32
 		{E3B92D0C-F0CB-488F-8BD4-3C2B7D393291}.Release|x86.Build.0 = Release|Win32
+		{A6DFDAB8-1742-4680-B5E5-360E8AA8DCA4}.Debug|x64.ActiveCfg = Debug|x64
+		{A6DFDAB8-1742-4680-B5E5-360E8AA8DCA4}.Debug|x64.Build.0 = Debug|x64
+		{A6DFDAB8-1742-4680-B5E5-360E8AA8DCA4}.Debug|x86.ActiveCfg = Debug|Win32
+		{A6DFDAB8-1742-4680-B5E5-360E8AA8DCA4}.Debug|x86.Build.0 = Debug|Win32
+		{A6DFDAB8-1742-4680-B5E5-360E8AA8DCA4}.Release|x64.ActiveCfg = Release|x64
+		{A6DFDAB8-1742-4680-B5E5-360E8AA8DCA4}.Release|x64.Build.0 = Release|x64
+		{A6DFDAB8-1742-4680-B5E5-360E8AA8DCA4}.Release|x86.ActiveCfg = Release|Win32
+		{A6DFDAB8-1742-4680-B5E5-360E8AA8DCA4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
