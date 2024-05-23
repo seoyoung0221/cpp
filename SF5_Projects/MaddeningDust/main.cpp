@@ -8,12 +8,23 @@
 
 using namespace std;
 
+bool checkNum(string str);
+
 int main() {
 	int n;
 	int cnt = 1;
 	int rowBefore, colBefore, rowAfter, colAfter;
-	cout << "마방진의 행 혹은 열의 수를 자연수로 입력해주세요 : \n";
-	cin >> n;
+	string str;
+	while (true)
+	{
+		cout << "마방진의 행 혹은 열의 수를 자연수(홀수)로 입력해주세요 : \n";
+		cin >> str;
+		if (checkNum(str) == true)
+		{
+			break;
+		}
+	}
+	n = stoi(str);
 
 	int** array = new int* [n];
 
@@ -80,4 +91,25 @@ int main() {
 
 	delete[] array;
 	return 0;
+}
+
+
+bool checkNum(string str)
+{
+	// 숫자인지 확인
+	for (char& c : str)
+	{
+		// 0 : 숫자x
+		if (isdigit(c) == 0)
+		{
+			return false;
+		}
+	}
+
+	if (stoi(str)%2 == 0)
+	{
+		return false;
+	}
+
+	return true;
 }
